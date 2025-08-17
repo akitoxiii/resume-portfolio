@@ -18,15 +18,9 @@ export default function Contact() {
               </div>
               <div className="flex items-center space-x-3">
                 <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 011.836.986l-.139 2.153a1 1 0 01-1.986 0l-.139-2.153a1 1 0 00-1.836-.986l-4.435.74a1 1 0 01-1.06-.54l-.773-1.548a11.037 11.037 0 00-6.105-6.105l1.548-.773a1 1 0 01.54-1.06l4.435-.74A1 1 0 0115 2h2.153a1 1 0 01.986.836L18.74 7.27a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 00-6.105 6.105l.774 1.548a1 1 0 01-.54 1.06l-4.435.74a1 1 0 01-1.836-.986l.139-2.153a1 1 0 00-1.986 0l-.139 2.153a1 1 0 01-1.836.986l-4.435-.74a1 1 0 01-1.059-.54l-.774-1.548a11.037 11.037 0 00-6.105-6.105l1.548-.773a1 1 0 01.54-1.06l4.435-.74A1 1 0 012 3z" />
-                </svg>
-                <span className="text-gray-700">電話番号: 080-6382-4925</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700">所在地: 愛知県刈谷市末広町1丁目9-10コーポ末広102号室</span>
+                <span className="text-gray-700">所在地: 愛知県刈谷市</span>
               </div>
             </div>
           </div>

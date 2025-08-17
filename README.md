@@ -1,40 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# 黒田 滉斗 - ポートフォリオサイト
 
-## Getting Started
+このリポジトリは、フロントエンド開発エンジニア 黒田滉斗のポートフォリオサイトです。
 
-First, run the development server:
+## 概要
+
+- **技術スタック**: Next.js, TypeScript, Tailwind CSS
+- **デザイン**: モダンなダークブルーテーマのサイドバーナビゲーション
+- **内容**: 自己紹介、職歴・学歴、スキル、お問い合わせ
+
+## セクション構成
+
+1. **ホーム**: 基本情報とアピールポイント
+2. **自己紹介**: 詳細なプロフィール情報
+3. **職歴・学歴**: 学歴、職歴、資格
+4. **スキル**: 技術スキル、プロジェクト経験
+5. **お問い合わせ**: 連絡先情報と希望条件
+
+## 技術スキル
+
+- **フロントエンド**: HTML5, CSS, jQuery, Vue.js, React.js, Next.js
+- **バックエンド**: Java, Spring Framework
+- **データベース**: Microsoft SQLServer, OracleDB
+- **その他**: Git, Windows
+
+## 開発環境のセットアップ
+
+### 前提条件
+
+- Node.js 18.0.0以上
+- npm または yarn
+
+### インストール
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# リポジトリをクローン
+git clone https://github.com/akitoxiii/resume-portfolio.git
+
+# プロジェクトディレクトリに移動
+cd resume-portfolio
+
+# 依存関係をインストール
+npm install
+# または
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 開発サーバーの起動
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
+# 開発サーバーを起動
+npm run dev
+# または
+yarn dev
+```
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+ブラウザで [http://localhost:3000](http://localhost:3000) を開いて結果を確認してください。
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## ビルド
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+# 本番用ビルド
+npm run build
+# または
+yarn build
 
-## Learn More
+# 本番サーバーの起動
+npm start
+# または
+yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## デプロイ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+このプロジェクトは [Vercel](https://vercel.com) でのデプロイを推奨します。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Vercelアカウントを作成
+2. GitHubリポジトリを接続
+3. 自動デプロイが開始されます
 
-## Deploy on Vercel
+## プライバシー保護
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+個人情報保護のため、以下の情報は制限されています：
+- 住所: 市区町村レベルまで
+- 電話番号: 非表示
+- 郵便番号: 非表示
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## ライセンス
+
+このプロジェクトはMITライセンスの下で公開されています。
+
+## 連絡先
+
+- **メール**: akito62226@gmail.com
+- **GitHub**: [@akitoxiii](https://github.com/akitoxiii)
+
+---
+
+© 2025 黒田 滉斗. All rights reserved.

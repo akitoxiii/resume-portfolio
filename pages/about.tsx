@@ -11,9 +11,7 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
               <div><span className="font-medium">氏名:</span> 黒田 滉斗 (くろだ あきと)</div>
               <div><span className="font-medium">生年月日:</span> 2002年6月22日 (満23歳)</div>
-              <div><span className="font-medium">住所:</span> 愛知県刈谷市末広町1丁目9-10コーポ末広102号室</div>
-              <div><span className="font-medium">郵便番号:</span> 〒448-0802</div>
-              <div><span className="font-medium">電話番号:</span> 080-6382-4925</div>
+              <div><span className="font-medium">所在地:</span> 愛知県刈谷市</div>
               <div><span className="font-medium">メールアドレス:</span> akito62226@gmail.com</div>
             </div>
           </div>

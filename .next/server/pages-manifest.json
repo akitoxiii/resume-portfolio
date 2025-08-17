@@ -4,7 +4,5 @@
   "/_document": "pages/_document.js",
   "/career": "pages/career.js",
   "/": "pages/index.js",
-  "/skills": "pages/skills.js",
-  "/about": "pages/about.js",
-  "/contact": "pages/contact.js"
+  "/about": "pages/about.js"
 }
